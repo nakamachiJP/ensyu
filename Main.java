@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Main {
         public static void main(String[] args) {
+		for(int w = 1; w <= 2; w++){
                 Scanner sc1 = new Scanner(System.in);
                 System.out.println("身長:");
                 double a = sc1.nextDouble();
@@ -10,4 +11,5 @@ public class Main {
                 double bmi=(b/(a*a));
                 System.out.println(String.format("%.2f",bmi));
         }
+}
 }
